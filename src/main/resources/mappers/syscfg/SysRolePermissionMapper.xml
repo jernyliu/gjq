@@ -39,6 +39,6 @@
 	</delete>
 
 	<insert id="saveRoleFunc">
-		insert into sys_role_permission(role_id, FUNC_ID) values(#{roleId, funcId});
+		insert into sys_role_permission(role_id, FUNC_ID) values(#{roleId}, #{funcId});
 	</insert>
 </mapper>

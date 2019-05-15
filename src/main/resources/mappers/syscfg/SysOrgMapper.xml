@@ -8,11 +8,11 @@
         select * from sys_organization where ORG_ID = #{id}
     </select>
 
-    <select id="getSuperiorOrg" resultType="sysOrg" parameterType="superiorOrg">
+    <select id="getSuperiorOrg" resultType="sysOrg">
         select * from sys_organization where SUPERIOR_ID = #{orgId}
     </select>
 
-    <select id="getLikeOrg" parameterType="paraMap" resultType="sysOrg">
+    <select id="getLikeOrg" resultType="sysOrg">
         select * from sys_organization where 1=1
         <if test="countyId != null">
             and COUNTY_ID = ${countyId}
@@ -25,7 +25,7 @@
         </if>
     </select>
 
-    <select id="getSubOrgsByName" parameterType="paraMap" resultType="sysOrg">
+    <select id="getSubOrgsByName" resultType="sysOrg">
         select *
         from sys_organization where STATUS_ID = 1
         <if test="cityId != null">

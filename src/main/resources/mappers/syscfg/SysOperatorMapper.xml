@@ -19,14 +19,14 @@
         <result column="STATUS_ID" property="statusId" />
         <result column="OA_NAME" property="oaName" />
         <result column="INVALID_TIME" property="invalidTime" />
-        <!--<association property="sysOrg" javaType="sysOrg" column="ORG_ID" select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOrgMapper.getOrganization"/>-->
-        <!--<collection property="sysRoles" javaType="sysRole" column="OPERATOR_ID" select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOperatorRoleMapper.getRolesByOperatorId"/>-->
+        <association property="sysOrg" javaType="sysOrg" column="ORG_ID" select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOrgMapper.getOrganization"/>
+        <collection property="sysRoles" ofType="sysRole" column="OPERATOR_ID" select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOperatorRoleMapper.getRolesByOperatorId"/>
     </resultMap>
     <select id="getOperator" resultMap="sysOperatorResMap">
         select * from sys_operator where OPERATOR_ID = #{id}
     </select>
 
-    <select id="searchOperators" parameterType="paraMap" resultType="sysOperator">
+    <select id="searchOperators" resultType="sysOperator">
         select * from sys_operator op
         <if test="roleId != null">
             , sys_role role, sys_operator_role pr

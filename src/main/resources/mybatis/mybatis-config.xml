@@ -10,6 +10,5 @@
     </settings>
     <typeAliases>
         <package name="com.chinamobile.js.sz.tvms.syscfg.pojo"/>
-        <package name="jerny.demo"/>
     </typeAliases>
 </configuration>

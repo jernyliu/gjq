@@ -1,0 +1,16 @@
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from t_student where id = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Integer) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
