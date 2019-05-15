@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysFuncMapper">
+
+    <resultMap id="SysFuncResultMap" type="sysFunc">
+        <id property="funcId" column="func_id" />
+        <result property="parentFuncId" column="PARENT_FUNC_ID"/>
+        <result property="orderIdx" column="ORDER_IDX"/>
+        <result property="name" column="NAME" />
+        <result property="url" column="URL" />
+        <collection property="subFuncs" ofType="sysFunc">
+            <id property="funcId" column="sub_func_id" />
+            <result property="parentFuncId" column="sub_parent_func_id"/>
+            <result property="orderIdx" column="sub_order_idx"/>
+            <result property="name" column="sub_name" />
+            <result property="url" column="sub_url" />
+        </collection>
+    </resultMap>
+    <select id="getSysFuncTree" resultMap="SysFuncResultMap">
+        select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id,
+        f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url
+        from sys_function f1, sys_function f2
+        where f1.PARENT_FUNC_ID=0
+        and f1.FUNC_ID = f2.PARENT_FUNC_ID
+    </select>
+</mapper>

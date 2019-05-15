@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOrgMapper">
+    <select id="getOrganization" resultType="sysOrg">
+        select * from sys_organization where ORG_ID = #{id}
+    </select>
+
+    <select id="getSuperiorOrg" resultType="sysOrg" parameterType="superiorOrg">
+        select * from sys_organization where SUPERIOR_ID = #{orgId}
+    </select>
+
+    <select id="getLikeOrg" parameterType="paraMap" resultType="sysOrg">
+        select * from sys_organization where 1=1
+        <if test="countyId != null">
+            and COUNTY_ID = ${countyId}
+        </if>
+        <if test="orgTypes != null">
+            and ORG_TYPE not in (#{orgTypes})
+        </if>
+        <if test="orgName != null">
+            and ORG_NAME like #{orgName}
+        </if>
+    </select>
+
+    <select id="getSubOrgsByName" parameterType="paraMap" resultType="sysOrg">
+        select *
+        from sys_organization where STATUS_ID = 1
+        <if test="cityId != null">
+            and COUNTY_ID = #{cityId}
+        </if>
+        <if test="orgTypes != null">
+            and ORG_TYPE in (#{orgTypes})
+        </if>
+        <if test="orgName != null">
+            and ORG_NAME like #{orgName}
+        </if>
+    </select>
+
+    <select id="getSysOrgNameById" resultType="sysOrg">
+        select ORG_NAME from sys_organization where org_id=#{orgId}
+    </select>
+</mapper>

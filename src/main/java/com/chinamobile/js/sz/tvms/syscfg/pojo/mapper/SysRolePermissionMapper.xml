@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysRolePermissionMapper">
+	<!-- sys_function
+	     sys_role
+	     sys_role_permission 多对多 -->
+	<resultMap type="SysFunc" id="funcResultMap">
+		<id property="funcId" column="FUNC_ID" />
+		<result property="parentFuncId" column="PARENT_FUNC_ID"/>
+		<result property="orderIdx" column="ORDER_IDX"/>
+		<result property="name" column="NAME"/>
+		<result property="url" column="URL"/>
+	</resultMap>
+	<select id="getSysFuncByRoleId" resultMap="funcResultMap">
+		select func.*, rp.FUNC_ID
+		from sys_function func, sys_role_permission rp
+		where func.FUNC_ID = rp.FUNC_ID
+		and rp.ROLE_ID = #{roleId}
+	</select>
+	
+	<!--<resultMap type="sysRole" id="roleResultMap">-->
+		<!--<id column="role_id" property="roleId" />-->
+		<!--<result property="roleName" column="ROLE_NAME" />-->
+		<!--<result property="roleDesc" column="ROLE_DESC" />-->
+		<!--<result property="isActive" column="IS_ACTIVE" />-->
+	<!--</resultMap>-->
+	<!---->
+	<!--<select id="getRolesByFuncId" resultMap="roleResultMap">-->
+		<!--select role.*, rp.role_id-->
+		<!--from sys_role role, sys_role_permission rp-->
+		<!--where role.role_id = rp.role_id-->
+		<!--and rp.OPERATOR_ID = #{funcId}-->
+	<!--</select>-->
+
+	<delete id="removeFuncByRoleId">
+		delete from sys_role_permission where role_id = #{roleId}
+	</delete>
+
+	<insert id="saveRoleFunc">
+		insert into sys_role_permission(role_id, FUNC_ID) values(#{roleId, funcId});
+	</insert>
+</mapper>

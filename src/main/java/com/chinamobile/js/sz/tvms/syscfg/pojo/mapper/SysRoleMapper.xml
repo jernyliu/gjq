@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysRoleMapper">
+    <select id="searchSysRoles" resultType="SysRole">
+        select * from sys_role where 1 = 1
+        <if test="roleName != null">
+            and ROLE_NAME like #{roleName}
+        </if>
+        <if test="isActive != null">
+            and IS_ACTIVE = #{isActive}
+        </if>
+    </select>
+
+    <resultMap id="sysRoleResultMap" type="SysRole">
+        <id column="ROLE_ID" property="roleId" />
+        <result column="ROLE_NAME" property=""/>
+        <result column="ROLE_DESC" property=""/>
+        <result column="IS_ACTIVE" property=""/>
+        <collection property="sysOperators" column="ROLE_ID" ofType="SysOperator"
+                    select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOperatorRoleMapper.getOperatorsByRoleId" />
+        <collection property="sysFuncs" column="ROLE_ID" ofType="SysFunc"
+                    select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysRolePermissionMapper.getSysFuncByRoleId"/>
+    </resultMap>
+    <select id="getSysRole" resultMap="sysRoleResultMap">
+        select * from sys_role where ROLE_ID = #{roleId}
+    </select>
+
+    <select id="getAllSysRole" resultType="SysRole">
+        select * from sys_role where IS_ACTIVE
+    </select>
+
+    <select id="getAllSysRoleByParam" resultType="SysRole">
+        select * from sys_role
+        <where>
+            <if test="roleName != null">
+                and role_name = #{roleName}
+            </if>
+            <if test="isActive != null">
+                and is_active = #{isActive}
+            </if>
+        </where>
+    </select>
+
+    <insert id="saveSysRole">
+        insert into sys_role (ROLE_ID, ROLE_NAME, ROLE_DESC, IS_ACTIVE)
+        values (#{roleId}, #{roleName}, #{roleDesc}, #{isActive});
+    </insert>
+
+    <update id="removeSysRole">
+        update table sys_role set IS_ACTIVE = 0 where ROLE_ID = #{ROLE_ID}
+    </update>
+
+    <!--<update id="updateSysRole" parameterType="sysRole">-->
+        <!--update table sys_role set IS_ACTIVE = 0 where ROLE_ID = #{ROLE_ID}-->
+    <!--</update>-->
+
+</mapper>

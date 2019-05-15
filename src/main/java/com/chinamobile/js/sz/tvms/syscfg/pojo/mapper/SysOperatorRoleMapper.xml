@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOperatorRoleMapper">
+	<!-- sys_operator
+	     sys_role
+	     sys_operator_role 多对多 -->
+	<resultMap type="sysOperator" id="operatorResultMap">
+		<id column="OPERATOR_ID" property="operatorId" />
+		<result property="operatorName" column="OPERATOR_NAME" />
+	</resultMap>
+	
+	<select id="getOperatorsByRoleId" resultMap="operatorResultMap">
+		select op.*, pr.OPERATOR_ID
+		from sys_operator op, sys_operator_role pr
+		where op.OPERATOR_ID = pr.OPERATOR_ID
+		and pr.ROLE_ID = #{roleId}
+	</select>
+	
+	<resultMap type="sysRole" id="roleResultMap">
+		<id column="role_id" property="roleId" />
+		<result property="roleName" column="ROLE_NAME" />
+		<result property="roleDesc" column="ROLE_DESC" />
+		<result property="isActive" column="IS_ACTIVE" />
+	</resultMap>
+	
+	<select id="getRolesByOperatorId" resultMap="roleResultMap">
+		select role.*, pr.role_id
+		from sys_role role, sys_operator_role pr
+		where role.role_id = pr.role_id
+		and pr.OPERATOR_ID = #{operatorId}
+	</select>
+
+	<delete id="removeOperatorForRoleId">
+		delete from sys_operator_role where role_id = #{roleId}
+	</delete>
+	
+	
+</mapper>

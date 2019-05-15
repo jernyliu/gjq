@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOperatorMapper">
+    <!--<insert id="save" parameterType="sysOperator">-->
+        <!--insert into sys_operator(OPERATOR_ID,SHORT_NO,MOBILE, OPERATOR_NAME,OPERATOR_PWD,ORG_ID,CREATE_TIME,-->
+        <!--INVALID_TIME,STATUS_ID,PURVIEW,OA_NAME) values (#{operatorId},#{shortNo}, #{mobile},-->
+        <!--#{operatorName}, #{operatorPwd}, #{}, #{statusId}, #{oaName}, #{invalidTime});-->
+    <!--</insert>-->
+
+    <resultMap id="sysOperatorResMap" type="sysOperator">
+        <id column="OPERATOR_ID" property="operatorId"/>
+        <result column="SHORT_NO" property="shortNo" />
+        <result column="MOBILE" property="mobile" />
+        <result column="OPERATOR_NAME" property="operatorName" />
+        <result column="OPERATOR_PWD" property="operatorPwd" />
+        <result column="STATUS_ID" property="statusId" />
+        <result column="OA_NAME" property="oaName" />
+        <result column="INVALID_TIME" property="invalidTime" />
+        <association property="sysOrg" javaType="sysOrg" column="ORG_ID" select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOrgMapper.getOrganization"/>
+        <collection property="sysRoles" javaType="sysRole" column="OPERATOR_ID" select="com.chinamobile.js.sz.tvms.syscfg.pojo.mapper.SysOperatorRoleMapper.getRolesByOperatorId"
+    </resultMap>
+    <select id="getOperator" parameterType="long" resultMap="sysOperatorResMap">
+        select * from sys_operator where OPERATOR_ID = #{id}
+    </select>
+
+    <select id="searchOperators" parameterType="paraMap" resultType="sysOperator">
+        select * from sys_operator op
+        <if test="roleId != null">
+            , sys_role role, sys_operator_role pr
+            <where>
+                <if test="operatorId != null">
+                    and op.operator_id = #{operatorId}
+                </if>
+                <if test="operatorName != null">
+                    and op.operator_name like #{operatorName}
+                </if>
+                <if test="status != null">
+                    and op.status_id = #{status}
+                </if>
+                <if test="orgId != null">
+                    and op.ORG_ID =#{orgId}
+                </if>
+                <if test="roleId != null">
+                    and role.role_id = #{roleId}
+                    and op.operator_id = pr.operator_id
+                    and pr.role_id = role.role_id
+                </if>
+            </where>
+        </if>
+    </select>
+
+    <!-- 别名形式 -->
+    <select id="searchSysOperators" resultType="sysOperator">
+        select op.operator_name,op.operator_id, org.org_name `sysOrg.orgName`
+        from sys_operator op, sys_organization org
+        where op.org_id = org.org_id
+        <if test="operatorName != null">
+            and op.operator_name like #{operatorName}
+        </if>
+    </select>
+</mapper>
