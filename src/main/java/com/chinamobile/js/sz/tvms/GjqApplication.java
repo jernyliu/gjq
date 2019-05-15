@@ -9,7 +9,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @SpringBootApplication
-@MapperScan("com.chinamobile.js.sz.tvms.syscfg.pojo.mapper")
+@MapperScan(value={"com.chinamobile.js.sz.tvms.syscfg.pojo.mapper", "jerny.demo"})
 public class GjqApplication {
 
 	public static void main(String[] args) {

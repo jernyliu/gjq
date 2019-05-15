@@ -12,7 +12,6 @@ public interface SysOperatorMapper {
 
     SysOperator getOperator(Long id);
 
-//    PaginationVO searchOperators(PaginationVO paginationVO, Map paraMap);
     List<SysOperator> searchOperators(Map paraMap);
 
     List<SysOperator> searchSysOperators(Map paraMap);
