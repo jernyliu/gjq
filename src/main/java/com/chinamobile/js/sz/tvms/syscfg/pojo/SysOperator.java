@@ -17,7 +17,7 @@ public class SysOperator implements Serializable {
     private Date invalidTime;
 
     private SysOrg sysOrg;
-	private List sysRoles = new ArrayList();
+	private List<SysRole> sysRoles = new ArrayList();
 
 	public Long getOperatorId() {
 		return operatorId;
@@ -100,5 +100,21 @@ public class SysOperator implements Serializable {
     }
 
 	public SysOperator() {
+	}
+
+	@Override
+	public String toString() {
+		return "SysOperator{" +
+				"operatorId=" + operatorId +
+				", shortNo='" + shortNo + '\'' +
+				", mobile='" + mobile + '\'' +
+				", operatorName='" + operatorName + '\'' +
+				", operatorPwd='" + operatorPwd + '\'' +
+				", statusId=" + statusId +
+				", oaName='" + oaName + '\'' +
+				", invalidTime=" + invalidTime +
+				", sysOrg=" + sysOrg +
+				", sysRoles=" + sysRoles +
+				'}';
 	}
 }

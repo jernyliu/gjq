@@ -100,4 +100,18 @@ public class SysOrg implements Serializable {
 
     public SysOrg() {
     }
+
+    @Override
+    public String toString() {
+        return "SysOrg{" +
+                "orgId=" + orgId +
+                ", orgName='" + orgName + '\'' +
+                ", superiorId=" + superiorId +
+                ", orgType=" + orgType +
+                ", channelType='" + channelType + '\'' +
+                ", countyId=" + countyId +
+                ", regionId=" + regionId +
+                ", statusId=" + statusId +
+                '}';
+    }
 }

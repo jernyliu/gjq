@@ -65,4 +65,16 @@ public class SysRole implements Serializable {
 
     public SysRole() {
     }
+
+    @Override
+    public String toString() {
+        return "SysRole{" +
+                "roleId=" + roleId +
+                ", roleName='" + roleName + '\'' +
+                ", roleDesc='" + roleDesc + '\'' +
+                ", isActive=" + isActive +
+                ", sysOperators=" + sysOperators +
+                ", sysFuncs=" + sysFuncs +
+                '}';
+    }
 }
