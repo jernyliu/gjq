@@ -7,10 +7,7 @@ import com.chinamobile.js.sz.tvms.common.exception.BusinessException;
 import com.chinamobile.js.sz.tvms.syscfg.pojo.SysFunc;
 import com.chinamobile.js.sz.tvms.syscfg.pojo.SysOperator;
 import com.chinamobile.js.sz.tvms.syscfg.pojo.SysRole;
-import com.chinamobile.js.sz.tvms.syscfg.service.SysCodeService;
-import com.chinamobile.js.sz.tvms.syscfg.service.SysFuncService;
-import com.chinamobile.js.sz.tvms.syscfg.service.SysOperatorService;
-import com.chinamobile.js.sz.tvms.syscfg.service.SysOrgService;
+import com.chinamobile.js.sz.tvms.syscfg.service.*;
 import com.chinamobile.js.sz.tvms.utils.SystemUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -35,6 +32,9 @@ public class AccessServiceImpl implements AccessService {
     private SysOrgService sysOrgService;
 
     @Autowired
+    private SysRoleService sysRoleService;
+
+    @Autowired
     private SystemUtil systemUtil;
 
 
@@ -44,13 +44,13 @@ public class AccessServiceImpl implements AccessService {
         //is userId 11 or 90
         SysOperator sysOperator;
         String operatorIdSub;
-        if(3 > operatorId.length()) {
+        if (3 > operatorId.length()) {
             operatorIdSub = operatorId;
         } else {
             operatorIdSub = operatorId.substring(0, 2);
         }
-        if(!"90".equals(operatorIdSub)){
-            operatorIdSub = "11"+operatorId;
+        if (!"90".equals(operatorIdSub)) {
+            operatorIdSub = "11" + operatorId;
             operatorId = operatorIdSub;
 
         }
@@ -62,28 +62,28 @@ public class AccessServiceImpl implements AccessService {
         }
 
         //validate user log in
-        if(sysOperator==null) {
+        if (sysOperator == null) {
             throw new BusinessException("errors.access.login.userExcep");
         }
-        if(!sysOperator.getOperatorPwd().equals(password)) {
+        if (!sysOperator.getOperatorPwd().equals(password)) {
             throw new BusinessException("errors.access.login.pwdExcep");
         }
-        if (sysOperator.getSysRoles()==null || sysOperator.getSysRoles().isEmpty()) {
+        if (sysOperator.getSysRoles() == null || sysOperator.getSysRoles().isEmpty()) {
             throw new BusinessException("errors.access.login.userRoleExcep");
         }
-        if(sysOperator.getStatusId().equals(TvmsTypes.NOT_ACTIVE)) {
+        if (sysOperator.getStatusId().equals(TvmsTypes.NOT_ACTIVE)) {
             throw new BusinessException("errors.access.login.userStatusExcep");
         }
 //		if(sysOperator.getInvalidTime().compareTo(new Date()) < 0) {
 //            throw new BusinessException("errors.access.login.userInvaild");
 //        }
 
-        if(sysOperator.getSysOrg() == null) {
+        if (sysOperator.getSysOrg() == null) {
             throw new BusinessException("errors.access.login.userOrgNullExcep");
         }
 
         sysOperator = checkLoginUserRoles(sysOperator);
-        if (sysOperator.getSysRoles()==null || sysOperator.getSysRoles().isEmpty()) {
+        if (sysOperator.getSysRoles() == null || sysOperator.getSysRoles().isEmpty()) {
             throw new BusinessException("errors.access.login.userRoleExcep");
         }
         //set loginUserVO
@@ -99,23 +99,70 @@ public class AccessServiceImpl implements AccessService {
 
         // set loginUserVO.RoleId
         Set<Long> userRoleFuncs = new HashSet<>();
-        Long[] userRoleIds = new Long[sysOperator.getSysRoles().size()];
-        for (int i = 0; i < sysOperator.getSysRoles().size(); i++) {
-            SysRole sysRole =  sysOperator.getSysRoles().get(i);
+        List<SysRole> roles = sysOperator.getSysRoles();
+        Long[] userRoleIds = new Long[roles.size()];
+        for (int i = 0; i < roles.size(); i++) {
+            Long roleId = roles.get(i).getRoleId();
+            SysRole sysRole = sysRoleService.getSysRoleByRoleId(roleId);
             // set loginUserVO.RoleId
-            userRoleIds[i] = sysRole.getRoleId();
+            userRoleIds[i] = roleId;
             //set user Funcs in HashSet()
-                for (SysFunc  sysFunc : sysRole.getSysFuncs()) {
+            List<SysFunc> funcList = sysRole.getSysFuncs();
+            if (funcList != null) {
+                for (SysFunc sysFunc : sysRole.getSysFuncs()) {
                     userRoleFuncs.add(sysFunc.getFuncId());
                 }
+            }
         }
         loginUserVO.setRoleIds(userRoleIds);
 
         // func.
-        List<SysFunc> grantedSysFuncTree =  sysFuncService.buildRoleSysFuncTree(userRoleFuncs);
+        List<SysFunc> grantedSysFuncTree = sysFuncService.buildRoleSysFuncTree(userRoleFuncs);
         loginUserVO.setGrantedFuncTree(grantedSysFuncTree);
 
         return loginUserVO;
+    }
+
+    @Override
+    public SysOperator authenticate(String operatorId, String password) {
+        //is userId 11 or 90
+        SysOperator sysOperator = null;
+        String operatorIdSub;
+        if (3 > operatorId.length()) {
+            operatorIdSub = operatorId;
+        } else {
+            operatorIdSub = operatorId.substring(0, 2);
+        }
+        if (!"90".equals(operatorIdSub)) {
+            operatorIdSub = "11" + operatorId;
+            operatorId = operatorIdSub;
+
+        }
+        //get user
+        try {
+            sysOperator = sysOperatorService.getOperator(Long.valueOf(operatorId));
+        } catch (Exception e) {
+//            throw new BusinessException("errors.access.login.userExcep");
+        }
+
+        //validate user log in
+        if (sysOperator == null) {
+//            throw new BusinessException("errors.access.login.userExcep");
+        }
+        if (!sysOperator.getOperatorPwd().equals(password)) {
+//            throw new BusinessException("errors.access.login.pwdExcep");
+        }
+        if (sysOperator.getSysRoles() == null || sysOperator.getSysRoles().isEmpty()) {
+//            throw new BusinessException("errors.access.login.userRoleExcep");
+        }
+        if (sysOperator.getStatusId().equals(TvmsTypes.NOT_ACTIVE)) {
+//            throw new BusinessException("errors.access.login.userStatusExcep");
+        }
+
+        if (sysOperator.getSysOrg() == null) {
+//            throw new BusinessException("errors.access.login.userOrgNullExcep");
+        }
+        return sysOperator;
     }
 
     @Override
@@ -170,18 +217,18 @@ public class AccessServiceImpl implements AccessService {
         Set<Long> userRoleFuncs = new HashSet<>();
         Long[] userRoleIds = new Long[sysOperator.getSysRoles().size()];
         for (int i = 0; i < sysOperator.getSysRoles().size(); i++) {
-            SysRole sysRole =  sysOperator.getSysRoles().get(i);
+            SysRole sysRole = sysOperator.getSysRoles().get(i);
             // set loginUserVO.RoleId
             userRoleIds[i] = sysRole.getRoleId();
             //set user Funcs in HashSet()
-                for (SysFunc sysFunc: sysRole.getSysFuncs()) {
-                    userRoleFuncs.add(sysFunc.getFuncId());
-                }
+            for (SysFunc sysFunc : sysRole.getSysFuncs()) {
+                userRoleFuncs.add(sysFunc.getFuncId());
+            }
         }
         loginUserVO.setRoleIds(userRoleIds);
 
         // func.
-        List<SysFunc> grantedSysFuncTree =  sysFuncService.buildRoleSysFuncTree(userRoleFuncs);
+        List<SysFunc> grantedSysFuncTree = sysFuncService.buildRoleSysFuncTree(userRoleFuncs);
         loginUserVO.setGrantedFuncTree(grantedSysFuncTree);
 
         return loginUserVO;
@@ -190,8 +237,8 @@ public class AccessServiceImpl implements AccessService {
     private SysOperator checkLoginUserRoles(SysOperator sysOperator) {
         List<SysRole> roles = sysOperator.getSysRoles();
         List<SysRole> activeRoles = new ArrayList<>();
-        for(SysRole sysRole : roles) {
-            if(TvmsTypes.IS_ACTIVE.equals(sysRole.getIsActive())) {
+        for (SysRole sysRole : roles) {
+            if (TvmsTypes.IS_ACTIVE.equals(sysRole.getIsActive())) {
                 activeRoles.add(sysRole);
             }
         }

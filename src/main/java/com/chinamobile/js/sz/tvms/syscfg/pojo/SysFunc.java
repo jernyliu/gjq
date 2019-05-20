@@ -79,4 +79,16 @@ public class SysFunc implements Serializable, Comparable<SysFunc> {
 	public int compareTo(SysFunc o) {
 		return this.orderIdx.compareTo(o.getOrderIdx());
 	}
+
+	@Override
+	public String toString() {
+		return "SysFunc{" +
+				"funcId=" + funcId +
+				", parentFuncId=" + parentFuncId +
+				", orderIdx=" + orderIdx +
+				", name='" + name + '\'' +
+				", url='" + url + '\'' +
+				", subFuncs=" + subFuncs +
+				'}';
+	}
 }

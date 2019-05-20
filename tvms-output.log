@@ -26,3 +26,775 @@ org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143
 org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
 org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
 org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select f1.*, f2.func_id sub_func_id, f2.PARENT_FUNC_ID sub_parent_func_id, f2.order_idx sub_order_idx, f2.name sub_name, f2.url sub_url from sys_function f1, sys_function f2 where f1.PARENT_FUNC_ID=0 and f1.FUNC_ID = f2.PARENT_FUNC_ID  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters:  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_operator where OPERATOR_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 111(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==>  Preparing: select * from sys_role where ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ==> Parameters: 1(Long) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====>  Preparing: select func.*, rp.FUNC_ID from sys_function func, sys_role_permission rp where func.FUNC_ID = rp.FUNC_ID and rp.ROLE_ID = ?  143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger ====> Parameters: 1(BigDecimal) 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <====      Total: 53 143 
+org.apache.ibatis.logging.jdbc.BaseJdbcLogger <==      Total: 1 143 

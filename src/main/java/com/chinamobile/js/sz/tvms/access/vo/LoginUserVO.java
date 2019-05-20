@@ -3,6 +3,7 @@ package com.chinamobile.js.sz.tvms.access.vo;
 import com.chinamobile.js.sz.tvms.syscfg.pojo.SysFunc;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 public class LoginUserVO implements Serializable {
@@ -15,7 +16,7 @@ public class LoginUserVO implements Serializable {
     private String cityName;
     private boolean isSalesDept;
     private Long[] roleIds;
-    private List<SysFunc> grantedFuncTree;
+    private List<SysFunc> grantedFuncTree = new ArrayList<>();
 
     public Long getOperatorId() {
         return operatorId;
